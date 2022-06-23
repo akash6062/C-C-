@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int num;
+	clrscr();
+	printf("Enter the Integer Value: \n");
+	scanf("%d", &num);
+	if(num%2==0)
+		printf("The entered number is : %d , EVEN");
+	else
+		printf("The entered number is : %d ,ODD");
+	getch();
+}
