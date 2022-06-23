@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a,b;
+	clrscr();
+	printf("Enter the Integer Value of a: \n");
+	scanf("%d", &a);
+	printf("Enter the Integer Value of b: \n");
+	scanf("%d", &b);
+	if(a>b)	
+		printf("The entered number 'a' is maximum");
+	else
+		printf("The entered number 'b' is maximum);
+	getch();
+}
