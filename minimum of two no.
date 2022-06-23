@@ -9,8 +9,8 @@ void main()
 	printf("Enter the Integer Value of b: \n");
 	scanf("%d", &b);
 	if(a>b)	
-		printf("The entered number 'a' is maximum");
+		printf("The entered number 'b' is minimum");
 	else
-		printf("The entered number 'b' is maximum);
+		printf("The entered number 'a' is minimum);
 	getch();
 }
