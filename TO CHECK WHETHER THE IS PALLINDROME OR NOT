@@ -1,0 +1,26 @@
+#include<stdio.h>
+int palli(int num)
+int main()
+{
+int num
+printf(“Enter a number:”);
+scanf(“%d”,&num);
+palli( int num)
+x=palli(int num)
+getch();
+return 0;
+}
+{
+int palli(int num)
+int  sum=0,num,mod;
+while(num>0)
+{
+Mod  = num%10;
+sum=sum+mod;
+num=num/10;
+}
+if(num=sum)
+Printf(“No is pallidrome :”);
+Else
+Printf(“no is not pallidrome:”);
+}
