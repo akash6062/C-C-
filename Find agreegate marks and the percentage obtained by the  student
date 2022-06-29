@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	clrscr();
+	int m1,m2,m3,m4,m5,total;
+	float average,percentage;
+	for(int i=1; i<=5; i++)
+	{
+		printf("Enter the marks for subject one: \n");
+		scanf("%d",&m1);
+		printf("Enter the marks for subject two: \n");
+		scanf("%d",&m2);
+		printf("Enter the marks for subject three: \n");
+		scanf("%d",&m3);
+		printf("Enter the marks for subject four: \n");
+		scanf("%d",&m4);
+		printf("Enter the marks for subject five: \n");
+		scanf("%d",&m5);
+		total=m1+m2+m3+m4+m5;
+		average=total/5;
+		percentage=(total*100)/500;
+		printf("\n The average of the 5 subjects is %f",average :");
+		printf("\n The percentage of the 5 subjects is %f",percentage :");
+		printf("\n The average marks and the percentage of the student %d  = %f and %f ", i, average, percentage );
+	}
+	getch();
+}
+
