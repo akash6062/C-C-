@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	char ch;
+	clrscr();
+	printf("Enter any character \n");
+	scanf("%c",&ch);
+	printf("The ASCII value of the given character %c = %d",ch, ch);
+	return 0;
+	getch();
+}
