@@ -1,0 +1,17 @@
+#include<stdio.h>
+	#include<conio.h>
+	{
+		clrscr();	
+		int n,rev=0;
+		printf("Enter an Integer to reverse:\n");
+		scanf("%d",&n);
+		while(n!=0)
+		{
+			rev=rev*10;
+			rev=rev+n%10;
+			n=n/10;
+		}
+		printf("After the reverse %d = %d \n", n,rev);
+		return 0;
+		getch();
+	}
