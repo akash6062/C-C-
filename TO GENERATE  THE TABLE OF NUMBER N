@@ -1,0 +1,21 @@
+#include<stdio.h>
+int mulp(int num)
+int main()
+{
+int num,x;
+printf(“enter the number:”);
+scanf(“%d”,&num);
+mulp(num)
+x=mulp(int num)
+getch();
+}
+int mulp(int num)
+{
+int i,num,a;
+for(i=1;i<=num;i++)
+{
+a=num*i;
+Printf(“Table of n number:%d”,a);
+}
+return 0;
+}
