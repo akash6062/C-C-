@@ -1,0 +1,21 @@
+#include<stdio.h>
+int avg(int num)
+int main()
+{
+int arr[10],x,i;
+Printf(“enter the element :”);
+for(i=0;i<10;i++)
+scanf(“%d”,&arr[i]);
+x=int avg(num)
+getch();
+}
+int avg(int num)
+int avg, sum,i;
+printf(“the sum is:”);
+for(i=0;i<10;i++)
+sum=sum+arr[i];
+printf(“%d”,&sum);
+avg=sum/10;
+printf(“the avg is :%d”,avg);
+return avg;
+}
