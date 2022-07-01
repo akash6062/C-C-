@@ -1,0 +1,23 @@
+#include<stdio.h>
+int big(int arr) 
+int main()
+{
+int arr[10],x;
+printf(“enter the element in the array:”);
+for(i=0;i<10;i++)
+{
+printf(“the elements is %d”:,a[i]);
+scanf(“%d”,&a[i]);
+x=big(arr)
+getch();
+}
+int big(int num)
+int i,x;
+for(i=0;i<1;i++)
+{ 
+if(arr[0]<arr[i])
+{
+arr[0]=arr[i];
+}}
+printf(“largest element=%d”,arr[0]);
+}
