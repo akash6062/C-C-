@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int n,k,r,q;
+	clrscr();
+	printf("Enter the Value of n and k: \n");
+	scanf("%d %d", &n ,&k);
+	q=n/k;
+	r=n%k;
+	printf("The integer division:%d divided by :%d is %d  \n",n, k, q);
+	return 0;
+	getch();
+}
