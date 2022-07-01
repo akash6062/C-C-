@@ -1,0 +1,19 @@
+#include<stdio.h>
+int  sum(int num)
+ int main()
+{
+int arr[10],sum,x;
+printf(“enter the element :”);
+for(i=0;i<10;i++)
+scanf(“%d”,arr[i]);
+x=int sum(num)
+getch();
+}
+int sum(int num)
+int i,sum,arr[10];
+printf(“the sum is:”);
+for(i=0;i<10;i++)
+sum=sum+arr[i];
+printf(:the sum of element is =%d”,sum);
+return 0;
+}
