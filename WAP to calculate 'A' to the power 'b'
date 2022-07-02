@@ -1,0 +1,18 @@
+#include<stdio.h>
+	#include<conio.h>
+	int main()
+	{
+		clrscr();	
+		int A, b, total=1;
+		printf("Enter a value of A  \n");
+		scanf("%d",&A);
+		printf("Enter a value of b  \n");
+		scanf("%d",&b);
+		for(int i=1 ; i<=b ; i++)
+		{
+			total=total*A;
+		}
+		printf("the value of Ato the power of b is : %d, total);
+		return 0;
+		getch();
+	}
