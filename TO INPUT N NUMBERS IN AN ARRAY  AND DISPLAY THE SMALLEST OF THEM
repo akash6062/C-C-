@@ -1,0 +1,23 @@
+ #include<stdio.h>
+int small(int arr)
+int main()
+{
+int arr[10],x;
+printf (“Enter the element of an array:”);
+for(i=0;i<10;i++)
+{
+printf(“The element is:%d”,a[i]);
+scanf(“%d”,&a[i]);
+x=int small(num)
+getch();
+}
+int small(int arr)
+int arr[],i,x;
+for(i=0;i<10;i++)
+{
+if(arr[0]>arr[i])
+{
+arr[0]=arr[i];
+}}
+Printf(“the smallest number %d:”);
+}
