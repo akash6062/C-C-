@@ -1,0 +1,20 @@
+#inlcude<stdio.h>
+void main()
+{
+long int num;
+int arrBin[100],i=0;
+printf("\n Enter the number : ");
+scanf("%d",&num);
+while(num!=0)
+	{
+	arrBin[i]=num%2;
+	num=num/2;
+	i++;
+	}
+while(i>=0)
+	{
+	printf("%d",arrBin[i]);
+	i--;
+	}
+printf("\n");
+}
