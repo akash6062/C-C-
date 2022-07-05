@@ -1,0 +1,24 @@
+#include<stdio.h>
+void main()
+{
+int arr[11],even=0,odd=0,neg=0,i;
+printf("\n Enter 10 numbers : ");
+for(i=0;i<10;i++)
+	{
+	printf("\n Enter number %d",i+1);
+	scanf("%d",&arr[i]);
+	if(arr[i]<0)
+		{
+		neg++;
+		}
+	if(arr[i]%2==0)
+		{
+		even++;	
+		}
+	else
+		{
+		odd++;
+		}
+	}
+printf("\n Number of Even numbers in Arrays is : %d \n Number of Odd numbers in Arrays is : %d \n Number of negative numbers in Arrays is : %d",even,odd,neg);
+}
