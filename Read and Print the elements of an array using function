@@ -1,0 +1,30 @@
+#include<conio.h>
+//READ FUNCTION
+void readArr(int arr[100],int n)
+{
+int i;
+for(i=0;i<n;i++)
+	{	
+	printf("\n Enter number %d : ",i+1);
+	scanf("%d",&arr[i]);
+	}
+}
+//WRITE FUNCTION
+void writeArr(int arr[100],int n)
+{
+int i;
+for(i=0;i<n;i++)
+	{	
+	printf("%d ",arr[i];
+	}
+}
+
+}
+void main()
+{
+int n,arr[100];
+printf("\n Enter the number of elements : ");
+scanf("%d",&n);	
+readArr(arr[100],n);
+writeArr(arr[100],n);
+}
