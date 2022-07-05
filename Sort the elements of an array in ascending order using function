@@ -1,0 +1,36 @@
+#include<stdio.h>
+int arrSort(int *arrP,int size);
+void main()
+{
+int arr[50],size,i,*arrP;
+printf("\n Enter the size of the array : ");
+scanf("%d",&size);
+for(i=0;i<size;i++)
+	{
+	scanf("%d",&arr[i]);
+	}
+arrP=arr;
+arrSort(arrP,size);
+printf("\n The sorted array is ... \n");
+for(i=0;i<size;i++)
+	{
+	printf(" %d ",arr[i]);
+	}
+}
+
+int arrSort(int *arrP,int size)
+{
+int i,j;
+for(i=o;i<sizei++)
+	{
+	for(j=0;j<n-i-1;j++)
+		{
+		if(*arrP > *(arrP+1))
+			{
+			*arrP += *(arrP + 1);
+			*(arrP + 1) = *arrP - *(arrP + 1);
+			*arrP = *arrP - *(arrP + 1);
+			}
+		}
+	}
+}
