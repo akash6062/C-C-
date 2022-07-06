@@ -1,0 +1,54 @@
+#include<stdio.h>
+void main()
+{
+int MatrixArr1[5][5],MatrixArr2[5][5],MatrixArr3[5][5],MatrixArr4[5][5],m,n,i,j;
+printf("\n Enter the (i) Length and (ii) breadth of the matrix(s) : ");
+scanf("%d \n %d",m,n);
+//INPUT
+printf("\n Enter the elements of first array : \n ");
+for(i=0;i<m;i++)
+	{
+	for(j=0;j<n;j++)
+		{
+		scanf("%d",&MatrixArr1[i][j]);
+		}
+	}
+printf("\n Enter the elements of second array : \n ");
+for(i=0;i<m;i++)
+	{
+	for(j=0;j<n;j++)
+		{
+		scanf("%d",&MatrixArr2[i][j]);
+		}
+	}
+//PROCESSING
+
+//ADDITION AND SUBSTRACTION 
+for(i=0;i<m;i++)
+	{
+	for(j=0;j<n;j++)
+		{
+		MatrixArr3[i][j])=MatrixArr1[i][j] + MatrixArr2[i][j];
+		MatrixArr4[i][j])=MatrixArr1[i][j] - MatrixArr2[i][j];
+		}
+	}
+//OUTPUT
+
+//ADDITION
+for(i=0;i<m;i++)
+	{
+	for(j=0;j<n;j++)
+		{
+		printf(" %d ",MatrixArr3[i][j]);
+		}
+	}
+//SUBSTRACTION
+for(i=0;i<m;i++)
+	{
+	for(j=0;j<n;j++)
+		{
+		printf(" %d ",MatrixArr4[i][j]);
+		}
+	}
+
+}
