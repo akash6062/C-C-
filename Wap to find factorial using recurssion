@@ -1,0 +1,25 @@
+#include<stdio.h>
+	#include<conio.h>
+	int main()
+	{
+		clrscr();	
+		int n; long f;
+		printf("Enter a positive number  \n");
+		scanf("%d",&n);
+		if(n<0)
+			printf("Factorial of the negative number is not defined." );
+		else
+		{
+			f= factorial(n);
+			printf("%d = %ld" ,n, f );
+		}
+		return 0;
+		getch();
+	}
+	long factorail (int n)
+	{
+		if(n==0)
+		return 1;
+		else
+		return(n*factorial;(n-1));
+	}
