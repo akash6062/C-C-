@@ -23,3 +23,4 @@ else
 {
 printf(“No is prime no:”);
 }
+
