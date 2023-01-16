@@ -17,3 +17,4 @@ sum=sum+arr[i];
 printf(:the sum of element is =%d”,sum);
 return 0;
 }
+
