@@ -43,6 +43,7 @@ int main()
     printf("Number of Consonants in String: %d",cCount);
 
     return 0;
+    
 
 }
 
