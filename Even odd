@@ -12,4 +12,3 @@ void main()
 		printf("The entered number is : %d ,ODD");
 	getch();
 }
-
