@@ -65,5 +65,3 @@ int checkPrimeNumber(int n) {
   return flag;
 
 }
-
- 
