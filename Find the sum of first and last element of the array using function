@@ -23,4 +23,3 @@ sum = elAdd(arrP,n);
 printf("\n The sum of first and last digit of array is : %d",sum);
 getch();
 }
-
