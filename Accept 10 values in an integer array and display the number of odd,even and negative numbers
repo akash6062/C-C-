@@ -22,3 +22,4 @@ for(i=0;i<10;i++)
 	}
 printf("\n Number of Even numbers in Arrays is : %d \n Number of Odd numbers in Arrays is : %d \n Number of negative numbers in Arrays is : %d",even,odd,neg);
 } 
+
