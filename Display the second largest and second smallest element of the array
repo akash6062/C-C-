@@ -38,5 +38,3 @@ void main ()
  printf ("The 2nd largest number is  = %dn", number[1]);
  printf ("The 2nd smallest number is = %dn", number[n-2]);
 }
-
-
