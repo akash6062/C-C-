@@ -29,5 +29,3 @@ void main()
         printf("\narr2[%d] = %d", i, arr2[i]);
     }   
 }
-
-
