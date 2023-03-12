@@ -27,8 +27,7 @@ void main()
     for (i = 0; i < num; i++)
     {
         printf("\narr2[%d] = %d", i, arr2[i]);
-    }
-    
+    }   
 }
 
 
