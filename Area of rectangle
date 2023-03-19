@@ -13,3 +13,5 @@ void main()
 	printf("The area of the rectangle=%d and the perimeter=%d",area,perimeter);
 	getch();
 }
+
+
