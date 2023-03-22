@@ -17,6 +17,3 @@ void main()
 		printf("%d ", b[i]);					
 	}
 	}
-
-
-
