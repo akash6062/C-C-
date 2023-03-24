@@ -1,3 +1,5 @@
+highlight the error
+
 #include<stdio.h>
 #include<conio.h>
 void main()
@@ -15,7 +17,7 @@ void main()
 		if(a>c)
 			printf("The entered number 'a' is maximum");
 		else
-			printf("The entered number 'c' is maximum);
+			printf("The entered number 'c' is maximum");
 	}
 	else
 	{
