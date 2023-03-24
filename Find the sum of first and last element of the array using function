@@ -1,25 +1,26 @@
-#include<stdio.h>
-#include<conio.h>
-int elAdd(int *arrP,int n)
-	{
-	int sum,*temp;
-	temp=arrP + (n-1);
-	sum = *arrP + *temp;
-	return sum;
-	}
-void main()
-{
-int arr[25],*arrP,i,n,sum;
-clrscr();
-printf("\n Enter the size of the array : ");
-scanf("%d",&n);
-printf("\n Enter the elements of the array. \n ");
-for(i=0;i<n;i++)
-	{
-	scanf("%d",&arr[i]);
-	}
-arrP=arr;
-sum = elAdd(arrP,n);
-printf("\n The sum of first and last digit of array is : %d",sum);
-getch();
+#include <stdio.h>
+
+int elAdd(int *arrP, int n) {
+    int sum, *temp;
+    temp = arrP + (n-1);
+    sum = *arrP + *temp;
+    return sum;
+}
+
+int main() {
+    int arr[25], *arrP, i, n, sum;
+
+    printf("\nEnter the size of the array: ");
+    scanf("%d", &n);
+
+    printf("\nEnter the elements of the array:\n");
+    for(i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
+    }
+
+    arrP = arr;
+    sum = elAdd(arrP, n);
+    printf("\nThe sum of first and last elements of the array is: %d", sum);
+
+    return 0;
 }
