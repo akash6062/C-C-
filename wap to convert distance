@@ -1,10 +1,11 @@
 #include<stdio.h>
 #include<conio.h>
+
 void main()
 {
-        float km,m,feet,inch,ch;
+        float km,m,feet,inch,cm;
         printf("Enter the distance b/w two cities \n");
-        scanf("%f",km);
+        scanf("%f",&km);
         m=km*1000;
         feet=km*3280.84;
         inch=km*39370.1;
@@ -13,6 +14,6 @@ void main()
         printf("\n distance in meter=%f",m);
         printf("\n distance in feet=%f",feet);
         printf("\n distance in inches=%f",inch);
-        printf("\n distance in centemeter=%f", ch);
+        printf("\n distance in centimeter=%f",cm);
         getch();
 }
