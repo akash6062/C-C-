@@ -12,3 +12,5 @@ int main() {
     printf("String s2: %s", s2);
     return 0;
 }
+
+
