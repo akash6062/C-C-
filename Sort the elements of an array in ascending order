@@ -1,32 +1,36 @@
-#include <stdio.h>              
+#include <stdio.h>
 
-void main()                        
+int main()
 {
-	int a[100],n,i,j;
+	int a[100], n, i, j;
+
 	printf("Array size: ");
-        scanf("%d",&n);
-        printf("Elements: ");
-        
-      for(i=0;i<n;i++)
-    {
-        scanf("%d",&a[i]);
-    }
-	for (int i = 0; i < n; i++)                     //Loop for ascending ordering
+	scanf("%d", &n);
+
+	printf("Elements: ");
+	for (i = 0; i < n; i++)
 	{
-		for (int j = 0; j < n; j++)             //Loop for comparing other values
+		scanf("%d", &a[i]);
+	}
+
+	for (i = 0; i < n; i++)                     // Loop for ascending ordering
+	{
+		for (j = 0; j < i; j++)             // Loop for comparing other values
 		{
-			if (a[j] > a[i])                //Comparing other array elements
+			if (a[j] > a[i])                // Comparing other array elements
 			{
-				int tmp = a[i];         //Using temporary variable for storing last value
-				a[i] = a[j];            //replacing value
-				a[j] = tmp;             //storing last value
+				int tmp = a[i];         // Using temporary variable for storing the last value
+				a[i] = a[j];            // Replacing value
+				a[j] = tmp;             // Storing the last value
 			}  
 		}
 	}
-	printf("\n\nAscending : ");                     //Printing message
-	for (int i = 0; i < n; i++)                     //Loop for printing array data after sorting
+
+	printf("\n\nAscending: ");                     // Printing message
+	for (i = 0; i < n; i++)                     // Loop for printing array data after sorting
 	{
 		printf(" %d ", a[i]);
 	}
-	
- }
+
+	return 0;
+}
